@@ -30,4 +30,11 @@ func ChallengeC_142() {
 	}
 	fmt.Println(ans)
 
+	// for rangeを使った場合
+	// for _, menu := range menus {
+	// 	if strings.Contains(menu, S) {
+	// 		ans = "Yes"
+	// 		break
+	// 	}
+	// }
 }
