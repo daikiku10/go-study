@@ -20,9 +20,7 @@ func ChallengeC_89() {
 	for i := 0; i < H; i++ {
 		sc.Scan()
 		i2Arr := strings.Split(sc.Text(), "")
-		for _, v := range i2Arr {
-			out = append(out, v)
-		}
+		out = append(out, i2Arr...)
 	}
 
 	mato := make([]int, 0, H*W)
