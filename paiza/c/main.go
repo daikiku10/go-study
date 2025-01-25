@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	challenge.ChallengeC_96()
+	challenge.ChallengeC_160()
 }
